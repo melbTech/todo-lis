@@ -1,0 +1,83 @@
+body {
+    background: #dde1e7;
+}
+
+.todo-list {
+    background: #dde1e7;
+    width: 30%;
+    height: auto;
+    /* border: 3px solid black; */
+    padding: 15px;
+    margin: auto;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+    border-radius: 30px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+ul {
+    padding: 0;
+}
+
+/* remove traditional bullet from front of list items */
+li {
+    list-style-type: none;
+    background-color: #eee;
+    border: none;
+    padding: 10px 0px 10px 5px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
+
+/*  */
+.done {
+    background-color: green;
+}
+
+.remove {
+    background-color: red;
+}
+
+/* mark task as finished */
+li.finished {
+    color: white;
+    background-color: gray;
+    text-decoration: line-through;
+}
+
+input[type="text"] {
+    font-size: 18px;
+    width: 94%;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+}
+
+input[type=button] {
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    border: none;
+    /* background-color: #538d22; */
+    color: white;
+    margin: -6px 4px 0px 0px;
+}
+
+#addButton {
+    background-color: #538d22;
+    padding: 0.5rem 1rem;
+    margin-bottom: 5px;
+}
+
+.yellowbackground {
+    background-color: yellow;
+}
+
+#divabout {
+    width: 300px;
+    font-size: 20px;
+    margin: 10px;
+}
