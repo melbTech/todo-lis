@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">TO DO List</h1>
+    <div class="todo-list">
+        <!-- Button to add a task -->
+        <input type="button" id="addButton" class="addBtn" value="Add" onclick="addTask()">
+        <!-- Text box to write the task -->
+        <input type="text" id="input" placeholder="Enter task...">
+
+        <hr>
+
+        <ul id="tasks">
+            <li>
+                <!-- Button to remove task -->
+                <input type="button" class="done" onclick="markDone(this.parentNode)" value="&#x2713;">
+                <!-- Button to mark task complete -->
+                <input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;">
+                        make todo list
+                
+            </li>
+
+        </ul>
+
+        <hr>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
