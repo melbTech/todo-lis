@@ -1,2 +1,2 @@
-# todo-lis
+# Todo-list
 A minimalist to-do list
